@@ -1,0 +1,287 @@
+
+html, body
+{
+	height: 100%;
+}
+
+body
+{
+	margin: 0px;
+	padding: 0px;
+	background: #FFF;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 11pt;
+	font-weight: 300;
+	color: #6c6c6c
+}
+
+h1, h2, h3
+{
+	margin: 0;
+	padding: 0;
+	font-weight: 600;
+	color: #454445;
+}
+
+p, ol, ul
+{
+	margin-top: 0;
+}
+
+ol, ul
+{
+	padding: 0;
+	list-style: none;
+}
+
+p
+{
+	line-height: 180%;
+}
+
+strong
+{
+}
+
+a
+{
+	color: #2C383B;
+}
+
+a:hover
+{
+	text-decoration: none;
+}
+
+.container
+{
+	
+	margin: 0px auto;
+	width: 1200px;
+}
+
+/*********************************************************************************/
+/* Logo                                                                          */
+/*********************************************************************************/
+
+#logo
+{	
+	position:absolute;
+	top: 1.9em;
+	left: 0 em;
+	width: 100%;
+}
+
+/*********************************************************************************/
+/* Menu                                                                          */
+/*********************************************************************************/
+
+#menu
+{
+	position:absolute;
+	right: 0;
+	top: 1em;
+}
+
+#menu ul
+{
+	display: inline-block;
+}
+
+#menu li
+{
+	display: block;
+	float: left;
+	text-align: center;
+	line-height: 60px;
+}
+
+#menu li a, #menu li span
+{
+	display: inline-block;
+	margin-left: 1px;
+	padding: 0em 1.5em;
+	letter-spacing: 0.10em;
+	text-decoration: none;
+	font-size: 1em;
+	text-transform: uppercase;
+	outline: 0;
+	color: #212121;
+}
+
+#menu li:hover a
+{
+	background: #8B786A;
+	color: #FFF !important;
+}
+
+
+#menu li.current_page_item a
+{
+	background: #8B786A;
+	color: #FFF !important;
+}
+
+
+
+/*********************************************************************************/
+/* Header                                                                        */
+/*********************************************************************************/
+	
+#header-wrapper
+{	
+	
+	padding: 2em 0em;
+	background: #FFF;
+}
+
+#header
+{
+	position: relative;
+	height: 100px;
+}
+
+
+#header-featured
+{		margin:4em;
+		height: 39em;
+		background-image: url(images/ab.jpg);
+		background-position: center;
+		background-size: cover;
+}
+
+#head
+{		
+		height: 8em;
+		background: url(images/header.jpg);
+		
+		background-position: center;
+		background-size: cover;
+} 
+
+#head h1
+{		position:absolute;
+		top:4.28em;
+		
+		font-weight:400;
+		word-spacing:0em;
+		letter-spacing:0.05em;
+		text-transform:uppercase;
+		font-size: 3em;
+		color: #555555;
+		
+		margin-left:1.25em;
+		padding: 0;
+		font-weight: 600;
+	
+}
+
+
+/*********************************************************************************/
+/* content                                                                       */
+/*********************************************************************************/
+	
+#content-main
+{
+	overflow: hidden;
+	padding: 0em 0em;
+	background: #fff;
+	text-align: left;
+	margin:0px;
+	width:100%;
+	height:400px;
+}
+
+#content
+{
+	
+	margin: 0em auto 0em auto;
+	padding: 5em 0em 5em 0em;
+	text-align: center;
+}
+
+#content .title
+{
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+	padding-bottom: 0.5em;
+	border-bottom: 1px solid rgba(255,255,255,0.8);
+}
+
+#content .title h2
+{
+	font-size: 2.3em;
+	word-spacing:0.1em;
+	
+}
+
+#content h2
+{
+	
+	color: #323232;
+}
+
+#content h2 #1
+{
+	
+	color: #323232;
+}
+ 
+#content h2 #2
+{
+	
+	color: #323232;
+}
+
+
+/*********************************************************************************/
+/* box                                                                     */
+/*********************************************************************************/
+.box
+ {
+
+  	 margin: 0;
+  	 padding: 0;
+	-webkit-box-sizing: border-box;
+ 	-moz-box-sizing: border-box;
+ 	box-sizing: border-box;
+	width:1000px;
+  	margin: 25px auto;
+  	overflow:hidden;
+	border: 1px solid grey;
+}
+
+.item {
+  height:150px;
+  width:25%;
+  float:left;
+  background-position: left top;
+  transition:width 1s ease;
+}
+
+
+
+.box:hover .item {
+  width:10%;
+  transition:width 0.5s ease;
+}
+
+.box .item:hover{
+  width:70%;
+  transition:width 0.5s ease;
+}
+
+.one {
+    background-image:url(http://lorempixel.com/700/150/abstract/);
+}
+.two {
+  background-image:url(http://lorempixel.com/700/150/city/);
+}
+
+.three {
+  background-image:url(http://lorempixel.com/700/150/sports/);
+}
+
+.four {
+  background-image:url(http://lorempixel.com/700/150/food/);
+}
